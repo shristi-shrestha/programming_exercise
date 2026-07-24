@@ -1,0 +1,33 @@
+Training on 309 White samples x 4355 genes; external test = 262 Black samples
+
+--- Tuning elastic_net ---
+> A | warning: While computing multiclass `precision()`, some levels had no predicted events
+               (i.e. `true_positive + false_positive = 0`).
+               Precision is undefined in this case, and those levels will be removed from the
+               averaged result.
+               Note that the following number of true events actually occurred for each
+               problematic event level:
+               'C2': 8
+> B | warning: While computing multiclass `precision()`, some levels had no predicted events
+               (i.e. `true_positive + false_positive = 0`).
+               Precision is undefined in this case, and those levels will be removed from the
+               averaged result.
+               Note that the following number of true events actually occurred for each
+               problematic event level:
+               'C2': 8, 'C3': 17, 'C4': 16
+There were issues with some computations   A: x1   B: x6
+There were issues with some computations   A: x3   B: x12
+There were issues with some computations   A: x4   B: x18
+There were issues with some computations   A: x5   B: x24
+> C | warning: While computing multiclass `precision()`, some levels had no predicted events
+               (i.e. `true_positive + false_positive = 0`).
+               Precision is undefined in this case, and those levels will be removed from the
+               averaged result.
+               Note that the following number of true events actually occurred for each
+               problematic event level:
+               'C2': 8, 'C3': 16, 'C4': 15
+There were issues with some computations   A: x5   B: x24There were issues with some computations   A: x6   B: x24   C: x6
+There were issues with some computations   A: x6   B: x24   C: x6
+
+
+--- Tuning random_forest ---

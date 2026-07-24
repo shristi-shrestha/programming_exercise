@@ -1,0 +1,5 @@
+"cohort","stage","n_genes","n_samples","n_globalmad_genes","n_common_genes","n_shared_genes"
+"Black","before_filter",18641,272,4355,8360,4355
+"Black","after_filter",4355,272,4355,8360,4355
+"White","before_filter",18851,316,4355,8360,4355
+"White","after_filter",4355,316,4355,8360,4355

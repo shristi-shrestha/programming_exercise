@@ -1,0 +1,13 @@
+".metric","mean","std_err","penalty","mixture","model","mtry","min_n"
+"accuracy",0.779712997513515,0.0175139554581252,1e-04,0,"elastic_net",NA,NA
+"bal_accuracy",0.848594299994842,0.0130731251966787,1e-04,0,"elastic_net",NA,NA
+"f_meas",0.778049031348565,0.0159985215427898,1e-04,0,"elastic_net",NA,NA
+"kap",0.694871261551858,0.0246804428854346,1e-04,0,"elastic_net",NA,NA
+"mn_log_loss",0.592371988815086,0.0215058364317469,1e-04,0,"elastic_net",NA,NA
+"roc_auc",0.945196639669271,0.0060873491304432,1e-04,0,"elastic_net",NA,NA
+"accuracy",0.794912014468501,0.0104225762276989,NA,NA,"random_forest",20,10
+"bal_accuracy",0.847199232190354,0.00954990029761183,NA,NA,"random_forest",20,10
+"f_meas",0.771095216117892,0.0136455260011307,NA,NA,"random_forest",20,10
+"kap",0.713664100696919,0.0152897230749733,NA,NA,"random_forest",20,10
+"mn_log_loss",0.725092592215665,0.0114926753447597,NA,NA,"random_forest",20,10
+"roc_auc",0.961410477591096,0.00407583513478182,NA,NA,"random_forest",20,10
